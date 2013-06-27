@@ -1,0 +1,71 @@
+body{
+	font-family: 'Advent Pro', sans-serif;
+}
+.full{
+	width: 500px;
+	margin: 0 auto;
+	border:2px solid #2E2E2E;
+}
+	.logo1, .logo2{
+		display: inline-block;
+		width: 200px;
+		height: 200px;
+	}
+	.logo1{
+		background: url('http://img208.imageshack.us/img208/2590/n43j.jpg');
+	}
+	.logo2{
+		float: right;	
+		background: url('http://img856.imageshack.us/img856/2204/33tq.jpg')no-repeat;
+		background-size:100px 50px;
+		float: right;
+		width: 100px;
+		margin-right:20px;
+		margin-top:20px;
+	}
+	.body{
+			
+	}
+		.body h1{
+			text-align: center;	
+			color: #0D427A;	
+			letter-spacing: 3px;
+		}
+		.body h2{
+			text-align: center;	
+			color: olive;	
+			letter-spacing: 3px;
+		}
+		.body table{
+			margin:0 auto;
+			font-weight: bold;
+			font-size: 16px;
+			width: 400px;	
+			color: #474747;
+		}
+			.body table tr td:nth-child(2){
+				text-align: right;
+				font-size: 17px;
+			}
+		.body p{
+			text-align: justify;
+			padding: 0 20px;	
+			color: #333031;	
+		}
+			.body .contact{
+				width: 460px;		
+				font-size: 14px;	
+				color: #333031;
+				margin-bottom: 10px;
+			}
+			.body .contact a{
+				text-decoration: none;
+				color: #007BFF;
+			}
+			.body .contact a:hover{
+				text-decoration: underline;;
+				color: #007BFF;
+			}
+		  		.body .contact tr td:nth-child(2){
+					font-size: 14px;		  		
+		  		}
