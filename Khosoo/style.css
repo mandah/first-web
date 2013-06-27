@@ -75,21 +75,15 @@ body{
 	  border-bottom:1px solid grey;
 	  height:60px;
 	}
-	     .footer .group{
-		display:inline-block;
-	     }
-	     .footer .group:first-child{
-		margin-left:20px;
-	     }
-		.footer h3, .footer span{
+		.footer strong, .footer span{
 		   display:inline-block;
 		   vertical-align:middle;
 		}
-		.footer h3{
+		.footer strong{
 		   font-size:50px;
 		   margin:0 20px;
 		}
-		.footer .group:first-child{
+		.footer strong:first-child{
 		   margin-left:150px;
 		}
 		.footer span{
