@@ -1,0 +1,144 @@
+body
+{
+	font-family:'URW Gothic L';
+	font-weight:bold;
+}
+header
+{	
+	text-align:center;
+	border-bottom:1px solid black;
+	border-top:1px solid black;
+}
+.right
+{
+	margin-left:20px;	
+	font-weight:normal;
+	margin-top:10px;
+	display:inline-block;	
+	vertical-align:top;
+	width:820px;
+	height:550px;
+}
+.title1
+{
+	margin-top:-3px;
+	color:red;
+}
+.minititle1
+{
+	font-size:30px;
+	margin-top:-20px;
+}
+.text1
+{
+	margin-top:-32px;
+	padding-bottom:10px;	
+	border-bottom:1px solid black;
+}
+.title2
+{
+	margin-top:-10px;
+	color:red;
+}
+.minititle2
+{
+	font-size:30px;
+	margin-top:-20px;
+}
+.text2
+{
+	margin-top:-32px;
+	padding-bottom:10px;	
+}
+.left
+{
+	display:inline-block;
+	margin-top:10px;
+	width:400px;
+	height:550px;
+	background:#D1D0CE;
+}
+.texttt
+{
+	font-weight:normal;
+}
+.lower
+{	
+	text-align:center;
+	height:70px;
+	margin-top:10px;
+	border-bottom:1px solid black;
+	border-top:1px solid black;
+}
+
+.lower p
+{
+	vertical-align:top;
+}
+.a
+{
+	display:inline-block;
+	font-size:60px;
+	margin:0px 0px;
+	
+}
+.b
+{
+	text-align:left;
+	margin:0px 10px;
+	font-weight:normal;
+	display:inline-block;
+	width:200px;
+	font-size:13px;
+	margin-top:10px;
+}
+.c
+{
+	display:inline-block;
+	font-size:60px;
+	margin:0px 0px;	
+}
+.d
+{
+	text-align:left;
+	margin:0px 10px;
+	font-weight:normal;
+	display:inline-block;
+	width:170px;
+	font-size:13px;
+	margin-top:10px;
+}
+.e
+{
+	display:inline-block;
+	font-size:60px;
+	margin:0px 0px;
+}
+.f
+{
+	text-align:left;
+	margin:0px 10px;	
+	font-weight:normal;
+	display:inline-block;
+	width:90px;
+	font-size:13px;	
+	height:48px;
+	line-height:48px;
+	margin-top:10px;
+}
+.g
+{
+	display:inline-block;
+	font-size:60px;
+	margin:0px 0px;
+}
+.h
+{
+	text-align:left;
+	margin:0px 10px;	
+	font-weight:normal;
+	display:inline-block;
+	width:220px;
+	font-size:13px;
+	margin-top:10px;
+}
