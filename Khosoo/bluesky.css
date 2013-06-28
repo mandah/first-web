@@ -8,23 +8,22 @@ body{
 }
 	.logo1, .logo2{
 		display: inline-block;
-		width: 200px;
-		height: 200px;
 	}
 	.logo1{
-		background: url('http://img208.imageshack.us/img208/2590/n43j.jpg');
+		background: url('http://img560.imageshack.us/img560/8445/o7l9.jpg');		
+		width: 300px;
+		height: 300px;
 	}
 	.logo2{
 		float: right;	
-		background: url('http://img856.imageshack.us/img856/2204/33tq.jpg')no-repeat;
-		background-size:100px 50px;
+		background: url('http://img208.imageshack.us/img208/5903/91k6.jpg');
 		float: right;
-		width: 100px;
-		margin-right:20px;
-		margin-top:20px;
+		width: 150px;
+		height: 64px;
+		margin:20px 20px;
 	}
 	.body{
-			
+			margin-top: -160px;
 	}
 		.body h1{
 			text-align: center;	
