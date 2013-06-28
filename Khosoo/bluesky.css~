@@ -4,7 +4,7 @@ body{
 .full{
 	width: 500px;
 	margin: 0 auto;
-	border:1px solid grey;
+	border:1px solid #2E2E2E;
 }
 	.logo1, .logo2{
 		display: inline-block;
