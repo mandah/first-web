@@ -1,5 +1,7 @@
 *{
 	font-family: 'PT Sans Caption', sans-serif;
+	margin:0;
+	padding:0;
 }
 
 div#layout
@@ -7,56 +9,62 @@ div#layout
 	width:400px;
 	margin-left:auto;
 	margin-right:auto;
+	border:1px solid #E0E0E0;
 }
 
 h1{
 	color:rgb(33,125,140);
 	text-align:center;	
+	background:url('image/Untitled.png') no-repeat;
+	padding-top:200px;
+	padding-bottom:50px;
+	margin-top:0px;
 }
 
 h2{
 	color:rgb(214,139,11);
 	text-align:center;
 	font-weight:normal;
+	padding-top:20px;
+	padding-bottom:20px;
 }
 
-table{
-	border:1px solid #E0E0E0;
-	padding-left:20px;
-	padding-right:20px;
-	background:url('image/Untitled.png') no-repeat;
-	padding-top:150px;
+ul li{
+	list-style:none;
+	width:360px;
+	margin-left:20px;
+	display:table;
+	
 }
 
-table tr td:last-child{
-	text-align:right;
+li span{
+	float:right;
+}
+
+li span:first-child{
+	float:left;
 }
 
 p{
 	text-align:left;
 	font-size:13px;
 	color:rgb(116,140,134);
+	margin:20px 20px 20px 20px;
 }
 
-p span, .tel{
-	display:block;
+address{
+	width:360px;
+	display:table;
+	padding:0 20px 20px 20px;
 }
 
 address span{
-	text-align:left;
 	font-size:12px;
 	font-style:normal;
 	color:rgb(116,140,100);
-}
-
-.email{
-	float:left;
-}
-
-.web{
 	float:right;
 }
 
-.tel{
-	text-align:right;
+address span:nth-child(3){
+	float:left;
 }
