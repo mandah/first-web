@@ -1,0 +1,70 @@
+body{
+	font-family: 'Advent Pro', sans-serif;
+}
+.full{
+	width: 500px;
+	margin: 0 auto;
+	border:1px solid #2E2E2E;
+}
+	.logo1, .logo2{
+		display: inline-block;
+	}
+	.logo1{
+		background: url('http://img560.imageshack.us/img560/8445/o7l9.jpg');		
+		width: 300px;
+		height: 300px;
+	}
+	.logo2{
+		float: right;	
+		background: url('http://img208.imageshack.us/img208/5903/91k6.jpg');
+		float: right;
+		width: 150px;
+		height: 64px;
+		margin:20px 20px;
+	}
+	.body{
+			margin-top: -160px;
+	}
+		.body h1{
+			text-align: center;	
+			color: #0D427A;	
+			letter-spacing: 3px;
+		}
+		.body h2{
+			text-align: center;	
+			color: olive;	
+			letter-spacing: 3px;
+		}
+		.body table{
+			margin:0 auto;
+			font-weight: bold;
+			font-size: 16px;
+			width: 400px;	
+			color: #474747;
+		}
+			.body table tr td:nth-child(2){
+				text-align: right;
+				font-size: 17px;
+			}
+		.body p{
+			text-align: justify;
+			padding: 0 20px;	
+			color: #333031;	
+		}
+			.body .contact{
+				width: 460px;		
+				font-size: 14px;	
+				color: #333031;
+				margin-bottom: 10px;
+			}
+			.body .contact a{
+				text-decoration: none;
+				color: #007BFF;
+			}
+			.body .contact a:hover{
+				text-decoration: underline;;
+				color: #007BFF;
+			}
+		  		.body .contact tr td:nth-child(2){
+					font-size: 14px;		  		
+		  		}
