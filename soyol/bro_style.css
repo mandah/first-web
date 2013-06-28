@@ -1,0 +1,62 @@
+*{
+	font-family: 'PT Sans Caption', sans-serif;
+}
+
+div#layout
+{
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h1{
+	color:rgb(33,125,140);
+	text-align:center;	
+}
+
+h2{
+	color:rgb(214,139,11);
+	text-align:center;
+	font-weight:normal;
+}
+
+table{
+	border:1px solid #E0E0E0;
+	padding-left:20px;
+	padding-right:20px;
+	background:url('image/Untitled.png') no-repeat;
+	padding-top:150px;
+}
+
+table tr td:last-child{
+	text-align:right;
+}
+
+p{
+	text-align:left;
+	font-size:13px;
+	color:rgb(116,140,134);
+}
+
+p span, .tel{
+	display:block;
+}
+
+address span{
+	text-align:left;
+	font-size:12px;
+	font-style:normal;
+	color:rgb(116,140,100);
+}
+
+.email{
+	float:left;
+}
+
+.web{
+	float:right;
+}
+
+.tel{
+	text-align:right;
+}
