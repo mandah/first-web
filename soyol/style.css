@@ -41,10 +41,11 @@ div.one_news{
    padding:10px;
 }
 
-h2{
+h1{
    text-align:left;
    text-transform:uppercase;
    font-weight:bold;
+   font-size:24px;
 }
 
 p.one{
@@ -55,8 +56,12 @@ p.one{
    padding-bottom:10px;
 }
 
-div.two_news span, h4 {
+div.two_news span, h2 {
    display:inline-block;
+}
+
+.two:last-child, .one:last-child{
+   border-bottom:none;
 }
 
 span.cat{
@@ -64,10 +69,11 @@ span.cat{
    font-weight:bold;
 }
 
-h4{
+h2{
    margin-left:5px;
    margin-bottom:0px;
    margin-top:0px;
+   font-size:17px;
 }
 
 p.two{
@@ -77,6 +83,7 @@ p.two{
    border-bottom:1px solid #E2E2E2;
    padding-bottom:10px;
    padding-top:3px;
+   text-align:justify;
 }
 
 footer{
@@ -93,7 +100,7 @@ footer section{
    line-height:63px;
 }
 
-footer section span{
+footer section strong{
    font-size:55px;
    font-weight:bold; 
    padding-right:20px;
@@ -101,7 +108,7 @@ footer section span{
    vertical-align:top;
 }
 
-footer section span,footer section p{
+footer section strong,footer section p{
    display:inline-block;
    vertical-align:top;
 }

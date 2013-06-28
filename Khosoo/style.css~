@@ -83,7 +83,7 @@ body{
 		   font-size:50px;
 		   margin:0 20px;
 		}
-		.footer strong:first-child{
+		.footer .group:first-child{
 		   margin-left:150px;
 		}
 		.footer span{
